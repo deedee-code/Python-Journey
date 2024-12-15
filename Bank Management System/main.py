@@ -38,3 +38,13 @@ class BankAccount:
             self.balance -= amount
             beneficiary_account.balance += amount
             print(f"You have successfully transferred {amount} to \n Account Number: {beneficiary_account.account_number},\n Account Holder: {beneficiary_account.account_holder}.\n Your new balance is {self.balance}\n")
+
+
+
+account1 = BankAccount("1234567890", "Jane Doe", 0, "Savings")
+account2 = BankAccount("0987654321", "John Doe", 0, "Checking")
+
+account1.deposit()
+account1.withdraw()
+account1.check_balance()
+account1.transfer(account2)
