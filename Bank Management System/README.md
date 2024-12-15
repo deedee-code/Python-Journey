@@ -3,8 +3,8 @@
 I designed and implemented a simple Bank Management System using Object-Oriented Programming (OOP) principles in Python.
 
 ## How to run your program
-- Clone this repo and checkout to doris_future_purpose branch
-- Run main.py file on your terminal
+- Clone this repo
+- Run `python main.py` on your terminal
 - You will be prompted to enter the amount you will like to deposit, withdraw and transfer
 
 ### Deposit Money
